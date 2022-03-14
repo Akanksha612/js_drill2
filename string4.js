@@ -8,10 +8,8 @@ function string4(a)
 for(var prop in a)
 {
     
+ str = str+ a[prop].charAt(0).toUpperCase()+ a[prop].substring(1).toLowerCase()+" ";
 
-    str = str+ a[prop].charAt(0).toUpperCase()+ a[prop].slice(1).toLowerCase()+" ";
-    
-   
 }
 
 return str;
