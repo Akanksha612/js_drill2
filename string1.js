@@ -23,6 +23,9 @@ str1=str1+str.charAt(i);
 
 }
 
+
+return Number(str1) *-1 ; 
+
 } //if end
 
 else
